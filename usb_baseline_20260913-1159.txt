@@ -1,0 +1,50 @@
+﻿=== USB 设备基线 20260913-1159 ===
+
+--- 1. USB 总线上全部 PnP 设备 (VID/PID/类/状态) ---
+USB\ROOT_HUB30\4&1A408FEE&0&0                                            | USB              | OK       | USB Root Hub (USB 3.0)
+USB\VID_062A&PID_4C01&MI_00\6&2157567B&0&0000                            | HIDClass         | OK       | USB Input Device
+USB\VID_062A&PID_4C01&MI_01\6&2157567B&0&0001                            | HIDClass         | OK       | USB Input Device
+USB\VID_062A&PID_4C01\5&3A692CE1&0&6                                     | USB              | OK       | USB Composite Device
+USB\VID_0951&PID_1666\E0D55EA574F1E4C109443549                           | USB              | Unknown  | USB Mass Storage Device
+USB\VID_0BDA&PID_9210\MSFT30012938053FBE                                 | SCSIAdapter      | Unknown  | USB Attached SCSI (UAS) Mass Storage Device
+USB\VID_14CD&PID_1212\121220160204                                       | USB              | OK       | USB Mass Storage Device
+
+--- 2. HID 类设备 (键盘/鼠标/触摸/笔) ---
+ACPI\INTC1070\2&DABA3FF&0                                                | OK       | Intel(R) HID Event Filter
+BUTTONCONVERTER\CONVERTEDDEVICE\4&1B3D86F6&0&0                           | OK       | Converted Portable Device Control device
+HID\CONVERTEDDEVICE&COL02\5&36801E08&0&0001                              | OK       | HID-compliant consumer control device
+HID\CONVERTEDDEVICE&COL03\5&36801E08&0&0002                              | OK       | HID-compliant system controller
+HID\GVINPUT&COL04\1&2D595CA7&2&0003                                      | OK       | HID-compliant vendor-defined device
+HID\GVINPUT&COL05\1&2D595CA7&2&0004                                      | OK       | HID-compliant vendor-defined device
+HID\INTC816&COL02\3&10839A5C&0&0001                                      | OK       | HID-compliant wireless radio controls
+HID\INTC816&COL03\3&10839A5C&0&0002                                      | OK       | HID-compliant system controller
+HID\INTC816&COL04\3&10839A5C&0&0003                                      | OK       | HID-compliant system controller
+HID\INTC816&COL05\3&10839A5C&0&0004                                      | OK       | HID-compliant system controller
+HID\INTC816&COL06\3&10839A5C&0&0005                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL07\3&10839A5C&0&0006                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL08\3&10839A5C&0&0007                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL09\3&10839A5C&0&0008                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0A\3&10839A5C&0&0009                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0B\3&10839A5C&0&000A                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0C\3&10839A5C&0&000B                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0D\3&10839A5C&0&000C                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0E\3&10839A5C&0&000D                                      | OK       | HID-compliant consumer control device
+HID\INTC816&COL0F\3&10839A5C&0&000E                                      | OK       | HID-compliant vendor-defined device
+HID\INTC816&COL10\3&10839A5C&0&000F                                      | OK       | HID-compliant vendor-defined device
+HID\INTC816&COL11\3&10839A5C&0&0010                                      | OK       | HID-compliant vendor-defined device
+HID\INTC816&COL12\3&10839A5C&0&0011                                      | OK       | Portable Device Control device
+HID\VID_062A&PID_4C01&MI_01&COL02\7&3532B482&0&0001                      | OK       | HID-compliant consumer control device
+HID\VID_062A&PID_4C01&MI_01&COL03\7&3532B482&0&0002                      | OK       | HID-compliant system controller
+HID\VID_062A&PID_4C01&MI_01&COL04\7&3532B482&0&0003                      | OK       | HID-compliant device
+ROOT\HIDCLASS\0000                                                       | OK       | gvinput Device
+USB\VID_062A&PID_4C01&MI_00\6&2157567B&0&0000                            | OK       | USB Input Device
+USB\VID_062A&PID_4C01&MI_01\6&2157567B&0&0001                            | OK       | USB Input Device
+
+--- 3. 摄像头/图像/媒体设备 (USB) ---
+
+--- 4. 生物识别/指纹设备 ---
+
+--- 5. 当前物理磁盘 (新 U 盘盘号辨认) ---
+Disk0 |    476.9 GB | IDE | CUSO C5S-EVO 512G
+Disk1 |  2,795.4 GB | IDE | WDC WD30PURX-78P6Z0Y
+Disk2 |     58.2 GB | USB | Mass Storage Device USB Device
